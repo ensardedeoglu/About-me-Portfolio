@@ -28,7 +28,6 @@ img {
 body{
     background-image: url(https://i.pinimg.com/originals/54/89/40/5489405ee8aa341a3b8024097e08fdc3.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 /* I added hover selector */
 a:hover {
