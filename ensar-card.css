@@ -13,6 +13,8 @@ img {
     }
 #x-img{
     height: 210px;
+    width: 100%;
+    height: auto;
 }
 
 *{
@@ -26,6 +28,7 @@ img {
 body{
     background-image: url(https://i.pinimg.com/originals/54/89/40/5489405ee8aa341a3b8024097e08fdc3.jpg);
     background-repeat: no-repeat;
+
 }
 /* I added hover selector */
 a:hover {
@@ -33,8 +36,10 @@ a:hover {
     
 }
 header {
-    background-color: cyan;
+    /* background-color: cyan; */
     margin-bottom: 40px;
+    width: auto;
+    height: auto;
 
   }
   .logo {
@@ -44,14 +49,15 @@ header {
     text-align: center;
     letter-spacing: -3;
     margin: 0;
-    padding: 20px 0 0 0;
-    justify-content: center;
+    padding: 10px 0 0 0;
+    justify-content:space-evenly;
+
 
   }
   @media all and (min-width: 600px) {
     header {
-      width: 100%;
-      display: flex;
+      width: auto;
+      display: auto;
       justify-content: space-between;
     }
       main {
@@ -177,4 +183,3 @@ header {
   form textarea {
     height: 160px;
   }
-  
